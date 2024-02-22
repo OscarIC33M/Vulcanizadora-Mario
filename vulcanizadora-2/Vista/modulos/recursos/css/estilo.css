@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+
+
+}body{
+
+    text-align: center;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #020202;
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+
+}
+.navbar{
+    display: flex;
+    margin-right: 5px;
+    background: #020202;
+
+}
+.navbar img{
+    width: 7%;
+    float: left;
+}
+
+.navbar a{
+    display: block;
+    padding: 23px 25px;
+    color: #fbf9f9;
+    text-decoration: none;
+    text-transform:  uppercase;
+    font-size: 20px;
+
+}
+.navbar a:hover{
+    background: #958c8c;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    height: 100vh !important;
+    padding: 60px 0;
+    background-image: linear-gradient(to top, rgba(11, 11, 14, 0.4)0%, #0b0b0b 100%), url(img5.jpg);
+    
+    background-image: -moz-linear-gradient(#050404);
+  
+    background-size: cover;
+
+}
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #f8f4f4;
+}
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #dc5806;
+    color: #fff;
+    text-decoration: none;
+    background: #dc5806;
+}
+.btn:hover{
+    background: none;
+}
+.btn-home{
+    display: flex;
+}
+.btn-home a{
+    margin: 0 10px;
+}
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.sau{
+    padding: 30px;
+    background: #0b0b0b;
+
+}
+.box-conteiner{
+    display: flex;
+
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box-conteiner .box{
+    height: 11rem;
+    width: 17rem;
+    background: #0b0b0b;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0.3rem 5rem #0b0b0b (0, 0, .5);
+    margin: 2rem;
+}
+.box-conteiner .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #dc5806;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.box-conteiner .box h3{
+    font-size: 20px;
+    color: #dc5806;
+}
+.box-conteiner .box p {
+    font-size: 16px;
+    padding: 0 15px;
+}
+
+.about{
+    background: #020202;
+
+}
+.price{
+    background: url(img2.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.contac{
+    padding-top: 20px;
+    background: #020202;
+    padding-bottom: 0;
+
+}
+@media(max-width: 768px){
+    .title{
+        margin-bottom: 0;
+        font-size: 40px;
+
+    }
+    .sau{
+        height: 120vh;
+    }
+    .navbar{
+        display: none;
+    }
+}
+
+
+
+
+
+.footer table{
+    width: 100%;
+    height: 164px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    margin-top: 2%;
+}
+
+/***************** INICIO DE SESION*****/
+
+
+.login-box {
+  width: 320px;
+  height: 520px;
+  background: #000;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.login-box .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #dc5806;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #958c8c;
+  color: #000;
+}
+
+.login-box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login-box a:hover {
+  color: #fff;
+}
+

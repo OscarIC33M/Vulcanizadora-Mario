@@ -1,0 +1,360 @@
+
+
+/***************** INICIO DE SESION*****/
+
+
+.login-box {
+  width: 320px;
+  height: 520px;
+  background: #000;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  margin-top: 16%;
+ 
+
+}
+
+.login-box .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #dc5806;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #958c8c;
+  color: #000;
+}
+
+.login-box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login-box a:hover {
+  color: #fff;
+}
+
+
+
+/*Formulario de Inicio Sesion*/
+
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e9e6e6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom:0%;
+  }
+  
+
+  .form-group {
+    margin-bottom: 0%;
+  }
+  
+ 
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="tel"],
+  .form-group input[type="email"],
+  .form-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+
+  .form-group input[type="text"]:focus,
+  .form-group input[type="tel"]:focus,
+  .form-group input[type="email"]:focus {
+    border-color: #1a1918;
+  }
+  
+
+  .form-group input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    background-color: #dc5806;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    
+  }
+  
+
+  .form-group input[type="submit"]:hover {
+    background-color: #dc5806;
+  }
+ 
+  /***Contraseña **/
+  .form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-color: #000;
+   
+}
+.box{
+  max-width: 500px;
+    margin:0% auto;
+    padding: 50px;
+    background-color: #eee9e9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 1, 0.1);
+ text-align: center;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.box h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.box label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.box input[type="text"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid hsl(0, 3%, 40%);
+
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.box input[type="submit"] {
+    background-color: #dc5806;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.box input[type="submit"]:hover {
+    background-color: #dc5806;
+}
+  
+/****Barra de navegacion**/
+header .logo{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+header .logo img{
+  width: 150px;
+}
+
+.container__nav{
+  position: relative;
+  height: 50%; 
+
+   
+}
+
+nav{
+  height: 150%;
+  width: 150%;
+  padding: 2%;
+  background-color: #000;
+
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+nav ul li{
+  margin: 0px 20px;
+ font-size: 14px;
+
+}
+
+
+
+nav ul li a{
+ color: rgb(241, 239, 245);
+ text-decoration: none;
+}
+
+
+.nav_mod{
+  height: 70px;
+  box-shadow: 1px 1px 10px 0px #00000010;
+  background: #fff;
+
+}
+
+.nav_mod a{
+ color: #373737;
+ 
+}
+
+
+
+
+.select{
+  background: #dc5806;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 20px;
+
+}
+
+.btn__menu{
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 300ms;
+  font-size: 20px;
+  cursor: pointer;
+  display:flex;
+  justify-content: center;
+
+}
+
+.btn__menu:hover{
+  background: #f5f5f5;
+}
+/*****Footer*****/
+/*AQUI COMIENZA EL FOOTER*/
+
+footer{
+  width: 100%;
+  padding: 50px 0px;
+  font-family: 'Nunito', sans-serif;
+   background-size: cover;
+
+ 
+}
+
+.container__footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 10px;
+ 
+}
+
+.box__footer{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.box__footer .logo img{
+  width: 180px;
+}
+
+.box__footer .terms{
+  max-width: 350px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #7a7a7a;
+  font-size: 18px;
+
+}
+
+.box__footer h2{
+  margin-bottom: 30px;
+  color: #242424;
+  font-weight: 700;
+}
+
+.box__footer a{
+  margin-top: 10px;
+  color: #7a7a7a;
+  font-weight: 600;
+}
+
+.box__footer a:hover{
+  opacity: 0.8;
+}
+
+.box__footer a .fab{
+  font-size: 20px;
+}
